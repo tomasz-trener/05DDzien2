@@ -30,9 +30,11 @@ namespace P05KonwersjeTablicList
 
             Console.WriteLine(wynik) ;
 
-          
+            // krócej mozna uzyc polecenia string.join
 
+            string wynik2 = string.Join(" ", t2);
 
+            Console.WriteLine(wynik2);
 
 
         }
