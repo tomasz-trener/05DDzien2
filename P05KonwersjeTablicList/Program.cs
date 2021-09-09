@@ -36,6 +36,17 @@ namespace P05KonwersjeTablicList
 
             Console.WriteLine(wynik2);
 
+            // w drugą stronę - gdy mamy string i chemy go przekonwertować na tablice lub listę
+
+            string napis = "ala ma*kota";
+
+            string[] tablica= napis.Split(' ','*');
+
+            string napis2 = "ala**!ma**!kota**!";
+
+            string[] tablica2 = napis2.Split(new string[1] { "**!" },
+                StringSplitOptions.RemoveEmptyEntries);
+
 
         }
     }
