@@ -11,21 +11,31 @@ namespace P07ZadaniePogoda
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Proszę podaj nazwę miasta");
-            string nazwaMiasta = Console.ReadLine();
+            do
+            {
+                Console.WriteLine("Proszę podaj nazwę miasta");
+                string nazwaMiasta = Console.ReadLine();
 
-            string url = string.Format("https://www.google.com/search?q=pogoda+{0}", nazwaMiasta);
+                if (nazwaMiasta == "")
+                    break;
 
-            string dane = new WebClient().DownloadString(url);
+                string url = string.Format("https://www.google.com/search?q=pogoda+{0}", nazwaMiasta);
 
-            char szukanyZnak = '°';
-            int poz = dane.IndexOf(szukanyZnak);
+                string dane = new WebClient().DownloadString(url);
 
-            int pozStop = poz - 1;
-            while (dane[pozStop] != '>')
-                pozStop--;
+                char szukanyZnak = '°';
+                int poz = dane.IndexOf(szukanyZnak);
 
-            string wynik = dane.Substring(pozStop + 1, poz - pozStop + 1);
+                int pozStop = poz - 1;
+                while (dane[pozStop] != '>')
+                    pozStop--;
+
+                string wynik = dane.Substring(pozStop + 1, poz - pozStop + 1);
+
+                Console.WriteLine(wynik);
+            } while (true);
+
+           
 
         }
     }
