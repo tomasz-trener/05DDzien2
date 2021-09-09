@@ -1,0 +1,21 @@
+﻿
+
+Napisz program, który wczytuje z konosli imiona. 
+
+Przed podaniem imion najpierw 
+uzytkownik okresla ile imion 
+chce przechowywać np: 4
+
+np:
+Jan
+Adam
+Ala
+Lukasz
+
+Zapisz wyniki do tablicy 
+a następnie w pętli  wypisz wszystkie imiona wraz z ich długością 
+wynik:
+Jan (3)
+Adam (4)
+Ala (3)
+Lukasz (6)
