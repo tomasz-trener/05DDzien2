@@ -1,0 +1,23 @@
+﻿
+
+Poproś użytkonika o wpisanie nazwy miasta 
+następnie program wyświetla jaka jest aktualna temperatura w danym mieście 
+i program ponowine pyta o kolejne miasto...
+
+aż do moementu kiedy zamiast nazwy miasta podamy ENTER
+
+wszystkie wyniki w postaci party {nazwa miasta} {temperatura}
+
+są zapisywane do kolekcji
+
+i po zamnięciu programu  historia wszytkich zapytań zapisuje się do pliku 
+c:\dane\pogodaHistoria.txt
+
+przykładowy wynik pliku:
+
+warszawa 20°C
+kraków 21 °C
+poznań 18 °C
+
+
+do while, substring, indexof , List<string> , string.format, WebClient, File, 

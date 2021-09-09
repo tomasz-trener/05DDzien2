@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04SposobyTworzeniaListITab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05KonwersjeTablicList", "P05KonwersjeTablicList\P05KonwersjeTablicList.csproj", "{2F28C5A9-9FA5-4939-9666-4C48F0A7653A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06WebClient", "P06WebClient\P06WebClient.csproj", "{27AFCB68-1B0E-4511-B6EE-52BBEFBA7301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07ZadaniePogoda", "P07ZadaniePogoda\P07ZadaniePogoda.csproj", "{3FDF0E2E-0836-4FD6-A6E0-5AD36FCE1005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{2F28C5A9-9FA5-4939-9666-4C48F0A7653A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F28C5A9-9FA5-4939-9666-4C48F0A7653A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F28C5A9-9FA5-4939-9666-4C48F0A7653A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AFCB68-1B0E-4511-B6EE-52BBEFBA7301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AFCB68-1B0E-4511-B6EE-52BBEFBA7301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AFCB68-1B0E-4511-B6EE-52BBEFBA7301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AFCB68-1B0E-4511-B6EE-52BBEFBA7301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDF0E2E-0836-4FD6-A6E0-5AD36FCE1005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDF0E2E-0836-4FD6-A6E0-5AD36FCE1005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDF0E2E-0836-4FD6-A6E0-5AD36FCE1005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDF0E2E-0836-4FD6-A6E0-5AD36FCE1005}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
