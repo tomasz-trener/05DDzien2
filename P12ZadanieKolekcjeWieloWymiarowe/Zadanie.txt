@@ -1,0 +1,11 @@
+﻿
+
+Wczytaj dane z pliku :http://tomaszles.pl/wp-content/uploads/2019/06/zawodnicy.txt
+
+do:
+
+1) tablicy dwuwymiarowej
+2) tablicy tablic
+3) listy list 
+
+Wyświetl wszystkie dane w konsoli 

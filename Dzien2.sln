@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10TablicePostrzepione", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11ListyList", "P11ListyList\P11ListyList.csproj", "{890BDF16-0C64-4791-BC87-3F7F4224E37E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12ZadanieKolekcjeWieloWymiarowe", "P12ZadanieKolekcjeWieloWymiarowe\P12ZadanieKolekcjeWieloWymiarowe.csproj", "{979442AF-058C-4BF1-A425-275CE9097BE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{890BDF16-0C64-4791-BC87-3F7F4224E37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{890BDF16-0C64-4791-BC87-3F7F4224E37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{890BDF16-0C64-4791-BC87-3F7F4224E37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979442AF-058C-4BF1-A425-275CE9097BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979442AF-058C-4BF1-A425-275CE9097BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979442AF-058C-4BF1-A425-275CE9097BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979442AF-058C-4BF1-A425-275CE9097BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
