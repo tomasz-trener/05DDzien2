@@ -6,7 +6,7 @@ cześć1:
 wczytaj wszystkie rekordy (bez nagłówka) do kolekcji stringów
 i wyświetl wszystkie rekordy w konsoli 
 schemat działania 
-wczytujemy do string przy pomocy webclient
+wczytujemy do string przy pomocy webclient 
 następnie używamy funkcji split('\n') zeby rozdzielic dane na poszczególne wiersze 
 
 część2: 
