@@ -20,9 +20,19 @@ namespace P08ZadanieZawodnicy
                 dane.Split(new char[] { '\n','\r' },
                     StringSplitOptions.RemoveEmptyEntries);
 
-            for (int i = 1; i < wiersze.Length; i++)
-                Console.WriteLine(wiersze[i]);
+            Console.WriteLine("Podaj kraj");
+            string kraj = Console.ReadLine();
 
+            List<string> przefiltrowaneWiersze = new List<string>();
+            for (int i = 1; i < wiersze.Length; i++)
+            {
+                Console.WriteLine(wiersze[i]);
+                string[] komorki = wiersze[i].Split(';');
+                if (komorki[4] == kraj)
+                    przefiltrowaneWiersze.Add(wiersze[i]);
+            }
+
+            File.WriteAllLines(@"c:\dane\zawodnicy.txt", przefiltrowaneWiersze);
 
             Console.ReadKey();
         }
