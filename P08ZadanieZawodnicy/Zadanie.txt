@@ -1,3 +1,16 @@
 ﻿
 
 http://tomaszles.pl/wp-content/uploads/2019/06/zawodnicy.txt
+
+cześć1:
+
+wczytaj wszystkie rekordy (bez nagłówka) do kolekcji stringów
+
+i wyświetl wszystkie rekordy w konsoli 
+
+
+schemat działania 
+
+wczytujemy do string przy pomocy webclient
+następnie używamy funkcji split('\n') zeby rozdzielic dane na poszczególne wiersze 
+
