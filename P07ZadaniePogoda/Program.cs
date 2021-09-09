@@ -18,7 +18,7 @@ namespace P07ZadaniePogoda
                 Console.WriteLine("Proszę podaj nazwę miasta");
                 string nazwaMiasta = Console.ReadLine();
 
-                if (nazwaMiasta == "")
+                if (string.IsNullOrWhiteSpace(nazwaMiasta)) //(nazwaMiasta == "")
                     break;
 
                 string url = string.Format("https://www.google.com/search?q=pogoda+{0}", nazwaMiasta);
