@@ -20,6 +20,8 @@ namespace P10TablicePostrzepione
 
             int[][] tabPostrzepiona = new int[4][];
 
+
+
             tabPostrzepiona[0] = new int[2];
             tabPostrzepiona[1] = new int[3];
             tabPostrzepiona[2] = new int[1];
