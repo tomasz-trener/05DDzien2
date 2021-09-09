@@ -21,14 +21,14 @@ namespace P08ZadanieZawodnicy
                     StringSplitOptions.RemoveEmptyEntries);
 
             Console.WriteLine("Podaj kraj");
-            string kraj = Console.ReadLine();
+            string kraj = Console.ReadLine().ToLower();
 
             List<string> przefiltrowaneWiersze = new List<string>();
             for (int i = 1; i < wiersze.Length; i++)
             {
                 Console.WriteLine(wiersze[i]);
                 string[] komorki = wiersze[i].Split(';');
-                if (komorki[4] == kraj)
+                if (komorki[4].ToLower() == kraj)
                     przefiltrowaneWiersze.Add(wiersze[i]);
             }
 
