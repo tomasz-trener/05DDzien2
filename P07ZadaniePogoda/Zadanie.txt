@@ -6,7 +6,7 @@ i program ponowine pyta o kolejne miasto...
 
 aż do moementu kiedy zamiast nazwy miasta podamy ENTER
 
-wszystkie wyniki w postaci party {nazwa miasta} {temperatura}
+wszystkie wyniki w postaci pary {nazwa miasta} {temperatura}
 
 są zapisywane do kolekcji
 
