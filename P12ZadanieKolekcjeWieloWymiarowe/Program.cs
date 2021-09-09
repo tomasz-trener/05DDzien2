@@ -43,9 +43,17 @@ namespace P12ZadanieKolekcjeWieloWymiarowe
             string[][] tablicaTablic = new string[wiersze.Length - 1][];
             for (int i = 1  ; i < wiersze.Length; i++)
                 tablicaTablic[i-1] = wiersze[i].Split(';');
-            
+
 
             // moje zdanie jest takie, że tablice tablic są wygodniejsze niż tablice wielo wymiarowe 
+
+
+            // listy list 
+            List<List<string>> listaList = new List<List<string>>();
+            for (int i = 1 ; i < wiersze.Length; i++)
+                listaList.Add(wiersze[i].Split(';').ToList());
+            
+
 
 
 
