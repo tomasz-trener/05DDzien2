@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -11,6 +12,7 @@ namespace P07ZadaniePogoda
     {
         static void Main(string[] args)
         {
+            List<string> wyniki = new List<string>();
             do
             {
                 Console.WriteLine("Proszę podaj nazwę miasta");
@@ -31,9 +33,12 @@ namespace P07ZadaniePogoda
                     pozStop--;
 
                 string wynik = dane.Substring(pozStop + 1, poz - pozStop + 1);
-
+                wyniki.Add(string.Format("w miescie {0} jest {1} temperatura", nazwaMiasta, wynik));
                 Console.WriteLine(wynik);
             } while (true);
+
+            string linie = string.Join("\n", wyniki);
+            File.WriteAllText(@"c:\dane\pogodaHistoria.txt", linie);
 
            
 
